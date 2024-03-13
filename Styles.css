@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.timer-container {
+    text-align: center;
+    margin: 0 auto;
+    background-color: cadetblue;
+    width: 25%;
+    border-radius: 5px;
+    padding: 50px;
+    transform: translate(0, 15%);
+}
+.timer {
+    font-size: 36px;
+    margin-bottom: 40px;
+    filter: drop-shadow(0 0 0.75rem rgb(20, 220, 203));
+    font-weight: 800;
+    /* background-color: blueviolet; */
+}
+.controls {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
